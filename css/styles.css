@@ -976,10 +976,9 @@ letter-spacing: 0.02em;
        padding: 120px 0;
   }
 .customers-cont {
-  min-width: 1158px;
+  width: 100%;
   flex-wrap: nowrap;
   align-items: center;
-
   justify-content: space-between;
  
 }
@@ -1016,8 +1015,7 @@ letter-spacing: 0.02em;
     width: 1128px;
     flex-wrap: nowrap;
     align-items: baseline;
-    margin-right: auto;
-    margin-left: auto;
+    gap:0;
   }
  }
 
@@ -1059,6 +1057,7 @@ letter-spacing: 0.02em;
   justify-content: center;
 }
 @media screen and (min-width: 678px) {
+
   .subscribe-form{
     flex-wrap: nowrap;
     gap:24px;
@@ -1108,7 +1107,7 @@ letter-spacing: 0.02em;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-cloud);
-  max-width: 264px;
+  width: 264px;
   margin-bottom: 72px;
   
 }
@@ -1236,6 +1235,9 @@ letter-spacing: 0.02em;
 
 }
 
+.carrent {
+color: var(--color-ocean);
+}
 .menu-container .modal-button{
   background: #E7E9FC;
   
