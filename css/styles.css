@@ -112,9 +112,7 @@ body {
   height: 4px;
   border-radius: 2px;
 }
-.carrent {
-  color: var(--color-ocean);
-}
+
 .text-nav.carrent::after,
 .text-nav:focus::after,
 .text-nav:hover::after {
@@ -1001,13 +999,14 @@ letter-spacing: 0.02em;
  
  }
 
- @media screen and (min-width: 678px) {
+ @media screen and (min-width: 768px) {
   .footer-container {
-   width: 100%;
+   width: 552px;
         padding-top: 96px;
     padding-bottom: 96px;
     gap: 24px;
     align-items: baseline;
+    justify-content: flex-start;
     }}
  @media screen and (min-width: 1158px) {
 
@@ -1033,7 +1032,7 @@ letter-spacing: 0.02em;
   display: flex;
   justify-content: center;
 }
-@media screen and (min-width: 678px) {
+@media screen and (min-width: 768px) {
   .footer-subtitels{
     justify-content: flex-start;
   }
@@ -1056,7 +1055,7 @@ letter-spacing: 0.02em;
   align-items: center;
   justify-content: center;
 }
-@media screen and (min-width: 678px) {
+@media screen and (min-width: 768px) {
 
   .subscribe-form{
     flex-wrap: nowrap;
@@ -1207,11 +1206,12 @@ letter-spacing: 0.02em;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
-  padding: 32px;
+  width: 100%;
+  height: 100%;
+  padding: 80px 60px 40px 40px;
     z-index: 999;
-
+display: flex;
+flex-direction: column;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
   background:var(--color-white);
@@ -1253,7 +1253,7 @@ color: var(--color-ocean);
   flex-direction: column;
   gap: 40px;
   padding: 0;
-margin-top: 80px;
+
   list-style: none; 
   margin-bottom: auto;
 }
@@ -1276,8 +1276,9 @@ transition-property: color;
  gap:40px;
   text-decoration: none;
   margin-bottom: 48px;
-  margin-top: auto;
+ 
 }
+
 .mobil-mail-adress{
   font-weight: 500;
 font-size: 20px;
@@ -1288,7 +1289,10 @@ transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.carrent
+{
+  color: var(--color-ocean);
+}
 .mobile-menu-items:hover,
 .mobil-mail-adress:hover,
 .mobil-mail-adress:focus,
