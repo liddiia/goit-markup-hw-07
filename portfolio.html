@@ -41,6 +41,17 @@
             <li><a class="link text-nav" href="">Contacts</a></li>
           </ul>
         </nav>
+        <!--Mobil-Menu-Button-->
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="icon-mob-menu" width="32" height="22">
+            <use href="./images/icons.svg#icon-mob-menu"></use>
+          </svg>
+        </button>
+
         <!--Contacts-->
         <address class="adress">
           <ul class="list adress-container">
@@ -59,6 +70,7 @@
       </div>
     </header>
     <main>
+      <!--Section-->
       <section class="portfolio-section">
         <div class="container">
           <h1 class="visually-hidden">Filters</h1>
@@ -82,12 +94,27 @@
             <li class="proj-point">
               <a class="link proj-point-link" href="">
                 <div class="proj-box">
-                  <img
-                    src="./images/portfolio-images/img-8.jpg"
-                    alt="photo of Banking App Interface Concept"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      srset="./images/portfolio-images/img-1mob.jpg 1x, ./images/portfolio-images/img-1mob@2.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srset="./images/portfolio-images/img-1tab.jpg 1x, ./images/portfolio-images/img-1tab@2.jpg 2x"
+                      media="(max-width: 1157px)"
+                    />
+                    <source
+                      srset="./images/portfolio-images/img-1desctop.jpg 1x, ./images/portfolio-images/img-1desctop@2.jpg 2x"
+                      media="(min-width: 1158px)"
+                    />
+                    <img
+                      src="./images/portfolio-images/img-1desctop.jpg"
+                      alt="photo of Banking App Interface Concept"
+                      class="portfolio-img"
+                      width="360px"
+                    />
+                  </picture>
+                  
                   <div class="overlay">
                     <p class="proj-label">
                       14 Stylish and User-Friendly App Design Concepts · Task
@@ -105,12 +132,26 @@
             <li class="proj-point">
               <a class="link proj-point-link" href="">
                 <div class="proj-box">
-                  <img
-                    src="./images/portfolio-images/img-7.jpg"
-                    alt="payment with scarning smartphon"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      srset="./images/portfolio-images/img-2mob.jpg 1x, ./images/portfolio-images/img-2mob@2.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srset="./images/portfolio-images/img-2tab.jpg 1x, ./images/portfolio-images/img-2tab@2.jpg 2x"
+                      media="(max-width: 1157px)"
+                    />
+                    <source
+                      srset="./images/portfolio-images/img-2desctop.jpg 1x, ./images/portfolio-images/img-2desctop@2.jpg 2x"
+                      media="(min-width: 1158px)"
+                    />
+                    <img
+                      src="./images/portfolio-images/img-2desctop.jpg"
+                      alt="photo of laptop and smartphon"
+                      class="portfolio-img"
+                      width="360px"
+                    />
+                  </picture>
                   <div class="overlay">
                     <p class="proj-label">
                       14 Stylish and User-Friendly App Design Concepts · Task
@@ -128,12 +169,26 @@
             <li class="proj-point">
               <a class="link proj-point-link" href="">
                 <div class="proj-box">
-                  <img
-                    src="./images/portfolio-images/img-6.jpg"
-                    alt="laptop and smartphon"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      srset="./images/portfolio-images/img-3mob.jpg 1x, ./images/portfolio-images/img-3mob@2.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srset="./images/portfolio-images/img-3tab.jpg 1x, ./images/portfolio-images/img-3tab@2.jpg 2x"
+                      media="(max-width: 1157px)"
+                    />
+                    <source
+                      srset="./images/portfolio-images/img-3desctop.jpg 1x, ./images/portfolio-images/img-3desctop@2.jpg 2x"
+                      media="(min-width: 1158px)"
+                    />
+                    <img
+                      src="./images/portfolio-images/img-3desctop.jpg"
+                      alt="rudder of a car"
+                      class="portfolio-img"
+                      width="360px"
+                    />
+                  </picture>
                   <div class="overlay">
                     <p class="proj-label">
                       14 Stylish and User-Friendly App Design Concepts · Task
@@ -151,12 +206,26 @@
             <li class="proj-point">
               <a class="link proj-point-link" href="">
                 <div class="proj-box">
-                  <img
-                    src="./images/portfolio-images/img-5.jpg"
-                    alt="rudder of a car"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      srset="./images/portfolio-images/img-4mob.jpg 1x, ./images/portfolio-images/img-4mob@2.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srset="./images/portfolio-images/img-4tab.jpg 1x, ./images/portfolio-images/img-4tab@2.jpg 2x"
+                      media="(max-width: 1157px)"
+                    />
+                    <source
+                      srset="./images/portfolio-images/img-4desctop.jpg 1x, ./images/portfolio-images/img-4desctop@2.jpg 2x"
+                      media="(min-width: 1158px)"
+                    />
+                    <img
+                      src="./images/portfolio-images/img-4desctop.jpg"
+                      alt="phone's screens"
+                      class="portfolio-img"
+                      width="360px"
+                    />
+                  </picture>
                   <div class="overlay">
                     <p class="proj-label">
                       14 Stylish and User-Friendly App Design Concepts · Task
@@ -174,12 +243,27 @@
             <li class="proj-point">
               <a class="link proj-point-link" href="">
                 <div class="proj-box">
-                  <img
-                    src="./images/portfolio-images/img-4.jpg"
-                    alt="phone's screens"
-                    width="360"
-                    height="300"
-                  />
+                 
+                  <picture>
+                    <source
+                      srset="./images/portfolio-images/img-5mob.jpg 1x, ./images/portfolio-images/img-5mob@2.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srset="./images/portfolio-images/img-5tab.jpg 1x, ./images/portfolio-images/img-5tab@2.jpg 2x"
+                      media="(max-width: 1157px)"
+                    />
+                    <source
+                      srset="./images/portfolio-images/img-5desctop.jpg 1x, ./images/portfolio-images/img-5desctop@2.jpg 2x"
+                      media="(min-width: 1158px)"
+                    />
+                    <img
+                      src="./images/portfolio-images/img-5desctop.jpg"
+                      alt="phone's screens"
+                      class="portfolio-img"
+                      width="360px"
+                    />
+                  </picture>
                   <div class="overlay">
                     <p class="proj-label">
                       14 Stylish and User-Friendly App Design Concepts · Task
@@ -197,12 +281,26 @@
             <li class="proj-point">
               <a class="link proj-point-link" href="">
                 <div class="proj-box">
-                  <img
-                    src="./images/portfolio-images/img-3.jpg"
-                    alt="a lady in orange sveter"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      srset="./images/portfolio-images/img-6mob.jpg 1x, ./images/portfolio-images/img-6mob@2.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srset="./images/portfolio-images/img-6tab.jpg 1x, ./images/portfolio-images/img-6tab@2.jpg 2x"
+                      media="(max-width: 1157px)"
+                    />
+                    <source
+                      srset="./images/portfolio-images/img-6desctop.jpg 1x, ./images/portfolio-images/img-6desctop@2.jpg 2x"
+                      media="(min-width: 1158px)"
+                    />
+                    <img
+                      src="./images/portfolio-images/img-6desctop.jpg"
+                      alt="a lady in orange sveter"
+                      class="portfolio-img"
+                      width="360px"
+                    />
+                  </picture>
                   <div class="overlay">
                     <p class="proj-label">
                       14 Stylish and User-Friendly App Design Concepts · Task
@@ -220,12 +318,27 @@
             <li class="proj-point">
               <a class="link proj-point-link" href="">
                 <div class="proj-box">
-                  <img
-                    src="./images/portfolio-images/img-2.jpg"
-                    alt="user's Instagram posts"
-                    width="360"
-                    height="300"
-                  />
+                 
+                  <picture>
+                    <source
+                      srset="./images/portfolio-images/img-7mob.jpg 1x, ./images/portfolio-images/img-7mob@2.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srset="./images/portfolio-images/img-7tab.jpg 1x, ./images/portfolio-images/img-7tab@2.jpg 2x"
+                      media="(max-width: 1157px)"
+                    />
+                    <source
+                      srset="./images/portfolio-images/img-7desctop.jpg 1x, ./images/portfolio-images/img-7desctop@2.jpg 2x"
+                      media="(min-width: 1158px)"
+                    />
+                    <img
+                      src="./images/portfolio-images/img-7desctop.jpg"
+                          alt="user's Instagram posts"
+                      class="portfolio-img"
+                      width="360px"
+                    />
+                  </picture>  
                   <div class="overlay">
                     <p class="proj-label">
                       14 Stylish and User-Friendly App Design Concepts · Task
@@ -243,12 +356,27 @@
             <li class="proj-point">
               <a class="link proj-point-link" href="">
                 <div class="proj-box">
-                  <img
-                    src="./images/portfolio-images/img-1.jpg"
-                    alt="fresh fruit and vegetable in a bag"
-                    width="360"
-                    height="300"
-                  />
+                 
+                  <picture>
+                    <source
+                      srset="./images/portfolio-images/img-8mob.jpg 1x, ./images/portfolio-images/img-8mob@2.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srset="./images/portfolio-images/img-8tab.jpg 1x, ./images/portfolio-images/img-8tab@2.jpg 2x"
+                      media="(max-width: 1157px)"
+                    />
+                    <source
+                      srset="./images/portfolio-images/img-8desctop.jpg 1x, ./images/portfolio-images/img-8desctop@2.jpg 2x"
+                      media="(min-width: 1158px)"
+                    />
+                    <img
+                      src="./images/portfolio-images/img-8desctop.jpg"
+                      alt="fresh fruit and vegetable in a bag"
+                      class="portfolio-img"
+                      width="360px"
+                    />
+                  </picture>
                   <div class="overlay">
                     <p class="proj-label">
                       14 Stylish and User-Friendly App Design Concepts · Task
@@ -266,12 +394,27 @@
             <li class="proj-point">
               <a class="link proj-point-link" href="">
                 <div class="proj-box">
-                  <img
-                    src="./images/portfolio-images/img.jpg"
-                    alt="a cup of coffe"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      srset="./images/portfolio-images/img-9mob.jpg 1x, ./images/portfolio-images/img-9mob@2.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srset="./images/portfolio-images/img-9tab.jpg 1x, ./images/portfolio-images/img-9tab@2.jpg 2x"
+                      media="(max-width: 1157px)"
+                    />
+                    <source
+                      srset="./images/portfolio-images/img-9desctop.jpg 1x, ./images/portfolio-images/img-9desctop@2.jpg 2x"
+                      media="(min-width: 1158px)"
+                    />
+                    <img
+                      src="./images/portfolio-images/img-9desctop.jpg"
+                      alt="a cup of coffe"
+                      class="portfolio-img"
+                      width="360px"
+                    />
+                  </picture>
+                  
                   <div class="overlay">
                     <p class="proj-label">
                       14 Stylish and User-Friendly App Design Concepts · Task
@@ -385,5 +528,104 @@
         </div>
       </div>
     </footer>
+    <!--Mobil-Menu-->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="modal-button mobile-menu-btn js-close-menu">
+        <svg class="mobile-menu-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li>
+          <a href="./index.html" class="link mobile-menu-items">Studio</a>
+        </li>
+        <li>
+          <a href="./portfolio.html" class="carrent link mobile-menu-items"
+            >Portfolio</a
+          >
+        </li>
+        <li><a href="" class="link mobile-menu-items">Contacts</a></li>
+      </ul>
+
+      <ul class="mobile-contacts list">
+        <li>
+          <a class="link mobile-menu-items" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li>
+          <a class="link mobil-mail-adress" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+
+      <!--Mobil-Social media-->
+
+      <ul class="social">
+        <li class="social-items list">
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreffer"
+            class="social-link link"
+            aria-label="instagram icon"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-items list">
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreffer"
+            class="social-link link"
+            aria-label="twitter icon"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-items list">
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreffer"
+            class="social-link link"
+            aria-label="facebook icon"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-items list">
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreffer"
+            class="social-link link"
+            aria-label="linkedin icon"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- Modal Wind -->
+    <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
