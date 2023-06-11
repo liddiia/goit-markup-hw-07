@@ -79,11 +79,13 @@ body {
 .header-container {
   display: flex;
   align-items: center;
+  
 }
 .nav-container {
   display: flex;
   align-items: center;
   margin-right: auto;
+  
 }
 .text-nav {
   position: relative;
@@ -153,6 +155,7 @@ body {
    .nav-container{
     display: flex;
     justify-content:space-evenly;
+   
     }
     .text-logo-header {
      margin-right: 120px;
@@ -161,9 +164,22 @@ body {
   display: flex;
   flex-direction: column;
  gap:12px;
+ }
+.text-adress {
+  text-decoration: none;
+  font-weight: 400;
+font-size: 12px;
+  line-height:calc(14/12);
+  letter-spacing: 0.04em;
+  color: var(--color-slate);
+   /*--transformation--*/
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 }
-  @media only screen and (min-width:1158px){
+  @media screen and (min-width:1158px){
 .adress-container {
   flex-direction: row;
   gap: 40px;
@@ -171,18 +187,8 @@ body {
   .text-logo-header {
   margin-right: 76px;
 }
-}
-.text-logo-studio-top {
-  font-family: "Raleway", sans-serif;
-  color: var(--color-navy-blue);
-}
-.adress {
-  font-style: normal;
-}
 .text-adress {
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 16px;
+ font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
@@ -193,6 +199,15 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+}
+.text-logo-studio-top {
+  font-family: "Raleway", sans-serif;
+  color: var(--color-navy-blue);
+}
+.adress {
+  font-style: normal;
+}
+
 .text-adress:focus,
 .text-adress:hover {
   color: var(--color-ocean);
@@ -628,7 +643,13 @@ text-transform: capitalize;
 /* NAVY BLUE */
 color:var(--color-navy-blue);
 margin-bottom: 8px;
+text-align:center;
   }
+  @media screen and (min-width: 768px) {
+    .features-titel {
+   
+  text-align:left;
+  }}
   .features-text {
     font-weight: 500;
     font-size: 16px;
@@ -685,7 +706,7 @@ letter-spacing: 0.02em;
 /*===========Section-4-Team===================*/
 .team {
   background-color: var(--color-cloud);
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .titels {
@@ -723,12 +744,14 @@ letter-spacing: 0.02em;
  
 }
 @media screen and (min-width: 1158px)
-{
+{ 
+.team {
+      padding: 120px 0;
+}
 .team-container {
-  
-  gap: 24px;
-  flex-wrap: nowrap;
-}}
+    gap: 24px;
+  flex-wrap: nowrap;}
+}
 .team-cards-fon {
  
   background-color: var(--color-white);
@@ -1118,7 +1141,7 @@ letter-spacing: 0.02em;
 
 
 .subscribe-form-input {
-  width: 100%;
+  width: 90%;
   height: 100%;
   justify-content: center;
   padding-left: 16px;
@@ -1229,7 +1252,8 @@ letter-spacing: 0.02em;
   justify-content: center;
 
   margin: 0;
-  padding: 0;
+  padding: 24px 0 24px 0;
+
   background-color: transparent;
   cursor: pointer;
   border: none;
