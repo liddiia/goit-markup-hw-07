@@ -1058,7 +1058,7 @@ letter-spacing: 0.02em;
 /*=============footer==================*/
 
 .footer-container {
- width:428px;
+ max-width:428px;
   display: flex;
  flex-wrap: wrap;
   align-items: center;
@@ -1119,7 +1119,7 @@ letter-spacing: 0.02em;
 .subscribe-form{
   display: flex;
   flex-wrap: wrap;
-  width:453px;
+  width:100%;
   height: 40px;
   align-items: center;
   justify-content: center;
@@ -1141,7 +1141,7 @@ letter-spacing: 0.02em;
 
 
 .subscribe-form-input {
-  width: 90%;
+  width: 100%;
   height: 100%;
   justify-content: center;
   padding-left: 16px;
@@ -1175,7 +1175,7 @@ letter-spacing: 0.02em;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-cloud);
-  width: 264px;
+  max-width: 268px;
   margin-bottom: 72px;
   
 }
